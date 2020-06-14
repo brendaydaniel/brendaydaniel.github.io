@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -942,7 +942,9 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  /*background: rgba(241, 78, 149, 0.8);*/
+  /*Color de los circulos*/
+  background: rgba(255, 203, 203, 0.9);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
