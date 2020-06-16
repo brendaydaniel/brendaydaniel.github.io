@@ -944,7 +944,7 @@ form label {
   height: 100px;
   /*background: rgba(241, 78, 149, 0.8);*/
   /*Color de los circulos*/
-  background: rgba(255, 203, 203, 0.9);
+  background: rgba(250, 128, 128, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1178,12 +1178,14 @@ form label {
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
+
+/*Bienvenido*/
 .fh5co-heading h2 {
   font-size: 60px;
   margin-bottom: 10px;
   line-height: 1.5;
-  font-weight: bold;
-  color: #F14E95;
+  font-weight: normal;
+  color: rgba(250, 128, 128, 1);
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
