@@ -114,7 +114,7 @@
 						<p>Nacido en Tierra del Fuego, este joven se dirige a Cordoba en busqueda de sus sueños. En el camino no esperaba encontrarse con una de las aventuras mas sorprendentes para él.</p>
 					</div>
 				</div>
-				<p class="heart text-center" style="color(250,128,128);"><i class="icon-heart2"></i></p>
+				<p class="heart text-center"><i style="color: rgb(250,128,128)" class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
 						<img src="images/bride.jpg" alt="groom" class="img-responsive">
@@ -180,6 +180,7 @@
 		</div>
 	</div>
 
+	<!--
 	<div id="fh5co-couple-story">
 		<div class="container">
 			<div class="row">
@@ -233,6 +234,9 @@
 			</div>
 		</div>
 	</div>
+
+-->
+
 
 	<div id="fh5co-gallery" class="fh5co-section-gray">
 		<div class="container">
@@ -395,21 +399,27 @@
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
+					<form class="form-inline" method="post" action="https://script.google.com/macros/s/AKfycbzdCsyyHCM2miP2KygPCYMEd93aLQnFO1CNUTxS/exec">
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Nombre">
+								<input type="name" name="nombre" class="form-control" id="name" placeholder="Nombre">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
+								<label for="celular" class="sr-only">Celular</label>
+								<input type="celular" name="celular" class="form-control" id="celular" placeholder="Celular">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">Confirmar</button>
+							<div class="form-group">
+								<label for="cancion" class="sr-only">Cancion</label>
+								<input type="cancion" name="cancion" class="form-control" id="cancion" placeholder="Recomendanos una canción!">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<button type="submit" class="btn btn-default btn-block" style="position: center; background-color: rgb(250,128,128);">Confirmar</button>
 						</div>
 					</form>
 				</div>
