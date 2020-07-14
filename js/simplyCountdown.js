@@ -99,7 +99,7 @@
                 days: createCountdownElt(countdown, parameters, 'simply-days-section'),
                 hours: createCountdownElt(countdown, parameters, 'simply-hours-section'),
                 minutes: createCountdownElt(countdown, parameters, 'simply-minutes-section'),
-                seconds: createCountdownElt(countdown, parameters, 'simply-seconds-section')
+                //seconds: createCountdownElt(countdown, parameters, 'simply-seconds-section')
             };
         }
 
@@ -125,7 +125,7 @@
                     days: 'día',
                     hours: 'hora',
                     minutes: 'minuto',
-                    seconds: 'segundo',
+                    //seconds: 'segundo',
                     pluralLetter: 's'
                 },
                 plural: true,
@@ -249,7 +249,7 @@
                     dayWord = parameters.words.days;
                     hourWord = parameters.words.hours;
                     minuteWord = parameters.words.minutes;
-                    secondWord = parameters.words.seconds;
+                    //secondWord = parameters.words.seconds;
                 }
 
                 /* display an inline countdown into a span tag */
@@ -257,8 +257,8 @@
                     countdown.innerHTML =
                         days + ' ' + dayWord + ', ' +
                         hours + ' ' + hourWord + ', ' +
-                        minutes + ' ' + minuteWord + ', ' +
-                        seconds + ' ' + secondWord + '.';
+                        minutes + ' ' + minuteWord + ', ';
+                        //seconds + ' ' + secondWord + '.';
 
                 } else {
                     fullCountDown.days.amount.textContent = (parameters.zeroPad && days.toString().length < 2 ? '0' : '') + days;
@@ -270,8 +270,8 @@
                     fullCountDown.minutes.amount.textContent = (parameters.zeroPad && minutes.toString().length < 2 ? '0' : '') + minutes;
                     fullCountDown.minutes.word.textContent = minuteWord;
 
-                    fullCountDown.seconds.amount.textContent = (parameters.zeroPad && seconds.toString().length < 2 ? '0' : '') + seconds;
-                    fullCountDown.seconds.word.textContent = secondWord;
+                    //fullCountDown.seconds.amount.textContent = (parameters.zeroPad && seconds.toString().length < 2 ? '0' : '') + seconds;
+                    //fullCountDown.seconds.word.textContent = secondWord;
                 }
                 //console.log(days);
 

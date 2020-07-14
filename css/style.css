@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo {
-  font-size: 40px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   line-height: 40px;
@@ -850,14 +850,14 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 #fh5co-header .display-tc h2,
@@ -871,7 +871,7 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -881,7 +881,7 @@ form label {
   background: #fff !important;
   color: #F14E95;
   border: none !important;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 #fh5co-header .display-tc .btn:hover,
@@ -940,8 +940,11 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
+  /*
   width: 100px;
   height: 100px;
+  */
+
   /*background: rgba(241, 78, 149, 0.8);*/
   /*Color de los circulos*/
   background: rgba(250, 128, 128, 0.8);
@@ -969,8 +972,8 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -981,14 +984,14 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 28px;
   /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   /* words */
 }
 
