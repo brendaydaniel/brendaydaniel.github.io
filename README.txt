@@ -1,9 +1,9 @@
 
 TITLE: 
-Wedding - 100% Fully Responsive Free HTML5 Bootstrap Template
+Wedding - Brenda & Daniel
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
+DESIGNED & DEVELOPED by Daniel Prieto
 
 Website: http://gettemplates.co/
 Twitter: http://twitter.com/gettemplatesco
