@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
-  }
+    }
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
@@ -1845,6 +1845,10 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+#fh5co-header{
+  background-position: center center;
 }
 
 /*# sourceMappingURL=style.css.map */
