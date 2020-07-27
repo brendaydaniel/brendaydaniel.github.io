@@ -3,7 +3,7 @@
 */
 
 .bg-base-color {
-  background-color: #ff4081 !important;
+    background-color: rgb(250, 128, 128) !important;
 }
 
 
@@ -12,7 +12,7 @@
 */
 
 .border-base-color {
-  border-color: #ff4081 !important;
+    border-color: #ff4081 !important;
 }
 
 
@@ -21,68 +21,80 @@
 */
 
 .btn-base-color {
-  color: #fff;
-  background-color: #ff4081;
-  border-color: #ff4081;
-  color: #fff;
+    color: #fff;
+    background-color: rgb(250, 128, 128);
+    border-color: rgb(250, 128, 128);
+    color: #fff;
 }
 
 .btn-base-color:hover {
-  color: #fff;
-  background-color: #ff1a68;
-  border-color: #ff0d5f;
+    color: #fff;
+    background-color: #ff1a68;
+    border-color: #ff0d5f;
 }
 
-.btn-base-color:focus, .btn-base-color.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.5);
+.btn-base-color:focus,
+.btn-base-color.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.5);
 }
 
-.btn-base-color.disabled, .btn-base-color:disabled {
-  color: #fff;
-  background-color: #ff4081;
-  border-color: #ff4081;
+.btn-base-color.disabled,
+.btn-base-color:disabled {
+    color: #fff;
+    background-color: #ff4081;
+    border-color: #ff4081;
 }
 
-.btn-base-color:not(:disabled):not(.disabled):active, .btn-base-color:not(:disabled):not(.disabled).active, .show > .btn-base-color.dropdown-toggle {
-  color: #fff;
-  background-color: #ff0d5f;
-  border-color: #ff0057;
+.btn-base-color:not(:disabled):not(.disabled):active,
+.btn-base-color:not(:disabled):not(.disabled).active,
+.show>.btn-base-color.dropdown-toggle {
+    color: #fff;
+    background-color: #ff0d5f;
+    border-color: #ff0057;
 }
 
-.btn-base-color:not(:disabled):not(.disabled):active:focus, .btn-base-color:not(:disabled):not(.disabled).active:focus, .show > .btn-base-color.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.5);
+.btn-base-color:not(:disabled):not(.disabled):active:focus,
+.btn-base-color:not(:disabled):not(.disabled).active:focus,
+.show>.btn-base-color.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.5);
 }
 
 .btn-outline-base-color {
-  color: #ff4081;
-  background-color: transparent;
-  background-image: none;
-  border-color: #ff4081;
+    color: #ff4081;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff4081;
 }
 
 .btn-outline-base-color:hover {
-  color: #ffffff;
-  background-color: #ff4081;
-  border-color: #ff4081;
+    color: #ffffff;
+    background-color: #ff4081;
+    border-color: #ff4081;
 }
 
-.btn-outline-base-color:focus, .btn-outline-base-color.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.5);
+.btn-outline-base-color:focus,
+.btn-outline-base-color.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.5);
 }
 
-.btn-outline-base-color.disabled, .btn-outline-base-color:disabled {
-  color: #ff4081;
-  background-color: transparent;
+.btn-outline-base-color.disabled,
+.btn-outline-base-color:disabled {
+    color: #ff4081;
+    background-color: transparent;
 }
 
-.btn-outline-base-color:not(:disabled):not(.disabled):active, .btn-outline-base-color:not(:disabled):not(.disabled).active, .show > .btn-outline-base-color.dropdown-toggle {
-  color: #fff;
-  background-color: #ff4081;
-  border-color: #ff4081;
+.btn-outline-base-color:not(:disabled):not(.disabled):active,
+.btn-outline-base-color:not(:disabled):not(.disabled).active,
+.show>.btn-outline-base-color.dropdown-toggle {
+    color: #fff;
+    background-color: #ff4081;
+    border-color: #ff4081;
 }
 
-.btn-outline-base-color:not(:disabled):not(.disabled):active:focus, .btn-outline-base-color:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-base-color.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.5);
+.btn-outline-base-color:not(:disabled):not(.disabled):active:focus,
+.btn-outline-base-color:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-base-color.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.5);
 }
 
 
@@ -91,11 +103,11 @@
 */
 
 .carousel-custom.carousel-base-color .flickity-prev-next-button {
-  background-color: #ff4081 !important;
+    background-color: #ff4081 !important;
 }
 
-.carousel-custom.carousel-base-color.page-dots-custom .flickity-page-dots .is-selected > .page > .page-dots {
-  color: #ff4081 !important;
+.carousel-custom.carousel-base-color.page-dots-custom .flickity-page-dots .is-selected>.page>.page-dots {
+    color: #ff4081 !important;
 }
 
 
@@ -104,7 +116,7 @@
 */
 
 .pace .pace-progress {
-  background-color: #ff4081 !important;
+    background-color: #ff4081 !important;
 }
 
 
@@ -113,7 +125,7 @@
 */
 
 .nav-tabs.nav-tabs-custom .nav-link.active {
-  color: #ff4081 !important;
+    color: #ff4081 !important;
 }
 
 
@@ -122,5 +134,5 @@
 */
 
 .text-base-color {
-  color: #ff4081 !important;
+    color: rgb(250, 128, 128) !important;
 }
