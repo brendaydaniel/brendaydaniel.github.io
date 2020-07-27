@@ -1122,7 +1122,7 @@ form label {
 #fh5co-gallery,
 .fh5co-section {
     padding: 3em 0;
-    clea  r: both;
+    clea r: both;
 }
 
 @media screen and (max-width: 768px) {
@@ -2127,6 +2127,32 @@ form label {
     background-repeat: no-repeat;
     background-position: bottom center;
     display: block;
+}
+
+.section-divider-top:before {
+    background-image: url(../images/divisores/section-divider-top.png);
+    margin-top: -40px;
+    top: 0;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 50;
+}
+
+.fh5co-cover::after {
+    background-image: url(../img/section-divider-top.png);
+    margin-top: -40px;
+    top: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    height: 40px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    box-sizing: border-box;
 }
 
 
