@@ -5,7 +5,6 @@
 
 /** BG - Static */
 
-<<<<<<< HEAD
 @media (max-width: 480px) {
     #hero-bg-static {
         background-image: url(../images/paraelCelu2.jpg);
@@ -19,10 +18,6 @@
     #hero-bg-static {
         background-image: url(../images/bg-hero-staticE.jpg);
     }
-=======
-#hero-bg-static {
-    background-image: url("../images/bg-hero-static.jpg");
->>>>>>> parent of 96feeb5... agrego images de prueba
 }
 
 @media (min-width: 1025px) {
