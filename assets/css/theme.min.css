@@ -1,4 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:600|PT+Serif:400i,700i|Questrial);
+@font-face {
+    font-family: 'Virtual';
+    src: url('../fonts/Virtual-Regular.eot');
+    src: url('../fonts/Virtual-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Virtual-Regular.woff2') format('woff2'), url('../fonts/Virtual-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MoonTime';
+    src: url('../fonts/MoonTime-Regular.eot');
+    src: url('../fonts/MoonTime-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MoonTime-Regular.woff2') format('woff2'), url('../fonts/MoonTime-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .btn,
 .mfp-counter,
 .mfp-title,
@@ -1298,6 +1316,10 @@ textarea.form-control:focus {
     font-style: italic
 }
 
+.font-alt3 {
+    font-family: "MoonTime"!important;
+}
+
 .mfp-counter,
 .mfp-title,
 header .navbar-nav .nav-link {
@@ -2533,6 +2555,14 @@ section.section-divider-y.section-divider-bg-gray-100:after {
     .title-md-extra-large-5 {
         font-size: 5rem!important;
         line-height: 5.625rem!important
+    }
+    .title-md-extra-large-6 {
+        font-size: 6rem!important;
+        line-height: 6.625rem!important
+    }
+    .title-md-extra-large-7 {
+        font-size: 7rem!important;
+        line-height: 7.625rem!important
     }
     .title-md-big {
         font-size: 6.25rem!important;
