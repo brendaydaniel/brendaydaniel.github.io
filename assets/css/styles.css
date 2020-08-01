@@ -5,9 +5,31 @@
 
 /** BG - Static */
 
-#hero-bg-static {
-    background-image: url("../images/bg-hero-staticE.jpg");
+@media (max-width: 480px) {
+    #hero-bg-static {
+        background-image: url(../images/paraelCelu2.jpg);
+    }
+    .h-100 {
+        height: 92%;
+    }
 }
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    #hero-bg-static {
+        background-image: url(../images/bg-hero-staticE.jpg);
+    }
+}
+
+@media (min-width: 1025px) {
+    #hero-bg-static {
+        background-image: url(../images/bg-hero-staticE.jpg);
+    }
+}
+
+
+/* #hero-bg-static {
+    background-image: url("../images/bg-hero-staticE.jpg");
+}*/
 
 
 /** BG - Parallax */
