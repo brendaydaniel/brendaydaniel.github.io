@@ -323,9 +323,9 @@
         // Send mail
         function send_mail($form, $btnForm) {
             var defaultMessage = $btnForm.html(),
-                sendingMessage = 'Loading...',
-                errorMessage = 'Error Sending!',
-                okMessage = 'Email Sent!';
+                sendingMessage = 'Enviando...',
+                errorMessage = 'Error en el envío!',
+                okMessage = '¡Confirmado!';
 
             $btnForm.html(sendingMessage);
 
@@ -335,7 +335,9 @@
                 dataType: 'json',
                 data: $form.serialize(),
                 success: function(data) {
-                    if (data === true) {
+                    //console.log("Entre a success. Data:");
+                    //console.log(data.result);
+                    if (data.result === 'success') {
                         $btnForm.html(okMessage);
                         $form.find('input[type="text"], input[type="email"], select, textarea').val('');
                     } else {
